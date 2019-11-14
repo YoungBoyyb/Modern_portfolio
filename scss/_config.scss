@@ -1,5 +1,5 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: rgba(118, 3, 241, 0.796);
+$secondary-color: #81f3ef;
 $show-home-image: true;
 $home-image: url(../img/espacerelax.jpg);
 $background-opacity: 0.9;
@@ -27,5 +27,32 @@ $background-opacity: 0.9;
                 $background-opacity);
             }
         }
+    }
+}
+
+// Media Query Mixins
+
+@mixin mediaSm {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+
+@mixin mediaMd {
+    @media screen and (max-width: 760px) {
+        @content;
+    }
+}
+
+@mixin mediaLg {
+    @media screen and (min-width: 769px) and (max-width: 1170px) {
+        @content;
+    }
+}
+
+@mixin mediaXl {
+    @media screen and (min-width: 1171px) {
+        @content;
     }
 }
