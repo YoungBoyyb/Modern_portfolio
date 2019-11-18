@@ -47,7 +47,8 @@
     background: rgba(106, 3, 216, 0.9);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
-      transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0);
+      background: rgba(106, 3, 216, 0.9); }
   .menu-branding {
     background: rgba(118, 3, 241, 0.796);
     transition: all 0.5s ease-out;
