@@ -24,7 +24,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -37,12 +36,15 @@
     width: 50%;
     height: 100vh;
     overflow: hidden; }
+  .menu-branding {
+    background: rgba(118, 3, 241, 0.9); }
   .menu-nav {
     margin: 0;
     padding: 0;
     background: rgba(93, 2, 191, 0.796);
     list-style: none;
     transform: translate3d(48em, 100%, 0);
+    background: rgba(106, 3, 216, 0.9);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
