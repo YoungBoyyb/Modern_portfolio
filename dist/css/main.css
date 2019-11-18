@@ -404,4 +404,6 @@ body {
     margin-top: 24vh;
     text-align: center; }
   .projects {
-    grid-template-columns: repeat(1fr); } }
+    grid-template-columns: repeat(1fr); }
+  main#contact {
+    padding-bottom: 0; } }
