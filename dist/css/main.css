@@ -406,4 +406,6 @@ body {
   .projects {
     grid-template-columns: repeat(1fr); }
   main#contact {
-    padding-bottom: 0; } }
+    padding: 0rem !important; }
+    main#contact .lg-heading {
+      line-height: 166px !important; } }
