@@ -50,7 +50,7 @@
       transform: translate3d(0, 0, 0);
       background: rgba(106, 3, 216, 0.9); }
   .menu-branding {
-    background: rgba(118, 3, 241, 0.796);
+    background: rgba(106, 3, 216, 0.9);
     transition: all 0.5s ease-out;
     transform: translate3d(-48em, -100%, 0); }
     .menu-branding.show {
