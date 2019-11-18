@@ -68,7 +68,7 @@
   .menu .nav-link {
     display: inline-block;
     position: relative;
-    bottom: 75px;
+    bottom: 25px;
     margin: 10px;
     font-size: 30px;
     text-transform: uppercase;
@@ -108,7 +108,7 @@ body {
     background-size: cover; }
     body#bg-img:after {
       content: '';
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       width: 100%;
@@ -245,7 +245,7 @@ body {
     background-size: cover; }
     body#work-img:after {
       content: '';
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       width: 100%;
@@ -285,7 +285,7 @@ body {
     background-size: cover; }
     body#contact-img:after {
       content: '';
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       width: 100%;
@@ -395,7 +395,8 @@ body {
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    justify-content: center; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
@@ -405,8 +406,4 @@ body {
     margin-bottom: 6vh;
     text-align: center; }
   .projects {
-    grid-template-columns: repeat(1fr); }
-  main#contact {
-    padding: 0rem !important; }
-    main#contact .lg-heading {
-      line-height: 166px !important; } }
+    grid-template-columns: 1fr; } }
