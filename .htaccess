@@ -1,4 +1,4 @@
 Options +FollowSymlinks
 RewriteEngine On
 
-RewriteRule ^accueil$ index.html [L]
+RewriteRule ^accueil.fr$ index.html [L]
