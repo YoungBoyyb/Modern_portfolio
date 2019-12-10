@@ -1,4 +1,4 @@
 Options +FollowSymlinks
 RewriteEngine On
 
-RewriteRule ^accueil.fr$ index.html [L]
+RewriteRule ^index.html$ /index.php?page=accueil [L]
