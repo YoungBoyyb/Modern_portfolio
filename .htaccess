@@ -1,4 +1,4 @@
 Options +FollowSymlinks
 RewriteEngine On
 
-RewriteRule ^index.html$ /index.html?page=accueil [L]
+RewriteRule ^index.html$ http://www.brandongarlantezec.fr/index.php?page=accueil [L]
