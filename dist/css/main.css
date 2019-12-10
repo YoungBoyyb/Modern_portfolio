@@ -60,7 +60,7 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #81f3ef; }
+      border: solid 3px rgba(118, 3, 241, 0.796); }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -260,7 +260,7 @@ body {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #81f3ef 3px solid; }
+    border: rgba(118, 3, 241, 0.796) 3px solid; }
   .about-info .bio {
     grid-area: bio; }
   .about-info .job-1 {
