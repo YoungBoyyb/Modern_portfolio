@@ -46,7 +46,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
     visibility: hidden;
 
     &.show {
@@ -65,24 +64,30 @@
         overflow: hidden;
     }
 
+    &-branding {
+        background: rgba($primary-color,0.9);
+    }
+
     &-nav {
         margin: 0;
         padding: 0;
-        background: darken($primary-color, 5);
+        background: darken($primary-color, 10);
         list-style: none;
         transform: translate3d(48em, 100%, 0);
+        background: rgba(darken($primary-color,5),0.9);
         @include easeOut;
 
         &.show {
             // Slide in from top
             transform: translate3d(0, 0, 0);
+            background: rgba(darken($primary-color,5),0.9);
         }
     }
 
     // Brandin Side
 
     &-branding {
-        background: $primary-color;
+        background: rgba(darken($primary-color,5),0.9);
         @include easeOut;
         transform: translate3d(-48em, -100%, 0);
 
@@ -118,6 +123,27 @@
     .nav-link {
         display: inline-block;
         position: relative;
+        margin: 0;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 1rem 0;
+        font-weight: 400;
+        color: set-text-color($primary-color);
+        text-decoration: none;
+        @include easeOut;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+@media(max-width:720px){
+    .nav-link {
+        display: inline-block;
+        position: relative;
+        bottom: 100%;
+        //margin: 10px;//
         font-size: 30px;
         text-transform: uppercase;
         padding: 1rem 0;
